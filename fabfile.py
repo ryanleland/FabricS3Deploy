@@ -4,9 +4,9 @@ from s3_storage import S3Storage
 
 # Configuration...
 STATIC_DIR = 'static'
-AWS_KEY = ''
-AWS_SECRET = ''
-AWS_BUCKET = ''
+AWS_KEY = 'populate me!'
+AWS_SECRET = 'populate me!'
+AWS_BUCKET = 'populate me!'
 
 def deploy_static_files(tag):
     s3_storage = S3Storage(AWS_KEY, AWS_SECRET, AWS_BUCKET)
